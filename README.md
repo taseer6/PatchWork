@@ -1,7 +1,6 @@
 # Automation Framework 
 
-This automation framwork is for testing web applications. Framework is build using
-Cucumber, Java, Maven and TestNG. 
+This automation framwork is for testing web applications. Framework is build usingCucumber, Java, Maven and TestNG. 
 
 ## Project Description
 
@@ -21,8 +20,8 @@ Pre-requisite You need to have following softwares installed on your computer
 2) Install Maven and set path
 3) Intellij
 4) Intellij Plugins: Maven,TestNG and Cucumber
-5) Installation In order to start using the project you need to clone the project from git.
-6) driver should be updated in the drivers' directory.
+5) You need to clone the project from git and open it in the intelij.
+6) Chrome Browser and chrome driver should be updated.
 
 
 ## Project structure
