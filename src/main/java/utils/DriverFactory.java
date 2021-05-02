@@ -25,5 +25,4 @@ public class DriverFactory {
         homePage=PageFactory.initElements(driver,HomePage.class);
         return driver;
     }
-
 }

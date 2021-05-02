@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.333 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 54.828 s <<< FAILURE! - in TestSuite
+runners.TestRunner.feature[As an Authentic user I should be able to login and perform a search](1)  Time elapsed: 48.818 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Taseers-MacBook-Pro.local', ip: 'fdc9:94a0:41f2:1:54a8:f2ce:21c2:3ab5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/fj/9_1dg_cj2hl...}, goog:chromeOptions: {debuggerAddress: localhost:55045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b9fa2ca56175a3b17cab97af24053f7
+*** Element info: {Using=xpath, value=//*[@id='center_column']/div/ol/li}
+	at runners.TestRunner.feature(TestRunner.java:39)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Taseers-MacBook-Pro.local', ip: 'fdc9:94a0:41f2:1:54a8:f2ce:21c2:3ab5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/fj/9_1dg_cj2hl...}, goog:chromeOptions: {debuggerAddress: localhost:55045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b9fa2ca56175a3b17cab97af24053f7
+*** Element info: {Using=xpath, value=//*[@id='center_column']/div/ol/li}
+

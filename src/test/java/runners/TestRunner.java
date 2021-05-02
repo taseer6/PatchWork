@@ -22,7 +22,7 @@ import java.io.IOException;
 @CucumberOptions(features = {"src/test/resource/features"},
         glue = {"stepDefinitions"},
         monochrome = true,
-        plugin = {"pretty", "html:target/cucumber-reports","com.cucumber.listener.ExtentCucumberFormatter:output/report.html"}
+        plugin = {"pretty", "html:output/cucumber-reports","com.cucumber.listener.ExtentCucumberFormatter:output/report.html"}
 )
 
 public class TestRunner {

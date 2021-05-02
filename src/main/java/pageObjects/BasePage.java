@@ -21,9 +21,9 @@ public class BasePage extends DriverFactory {
         this.wait = new WebDriverWait(driver, 15);
     }
 
-    /**********************************************************************************
-     **CLICK METHODS
-     **********************************************************************************/
+
+    /***************** **helper methods **********/
+
 
     public void waitAndClickElementsUsing(WebElement element) {
         boolean clicked = false;
@@ -33,70 +33,36 @@ public class BasePage extends DriverFactory {
                 this.wait.until(ExpectedConditions.elementToBeClickable(element)).click();
                 clicked = true;
             } catch (Exception e) {
-                Assert.fail("Unable to wait and click on the element using the By locator, element: >");
+                Assert.fail("can't click element");
             }
             attempts++;
         }
     }
 
 
-    /**********************************************************************************
-     **SEND KEYS METHODS /
-     **********************************************************************************/
+    /***************** **helper methods **********/
+
     public void sendKeysToWebElement(WebElement element, String textToSend)   {
         try {
             this.WaitUntilWebElementIsVisible(element);
             element.clear();
             element.sendKeys(textToSend);
         } catch (Exception e) {
-            Assert.fail("Unable to send keys to WebElement, Exception: " + e.getMessage());
+            Assert.fail("Unable send the keys " + e.getMessage());
         }
     }
 
 
-    /**********************************************************************************
-     **WAIT METHODS
-     **********************************************************************************/
+
+    /***************** **helper methods **********/
+
     public boolean WaitUntilWebElementIsVisible(WebElement element) {
         try {
             this.wait.until(ExpectedConditions.visibilityOf(element));
             return true;
         } catch (Exception e) {
-            Assert.fail("WebElement is NOT visible, Exception: " + e.getMessage());
+            Assert.fail("element isn't visible" + e.getMessage());
             return false;
         }
     }
-
-    public boolean WaitUntilWebElementIsVisibleUsingByLocator(By element) {
-        try {
-            this.wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-            return true;
-        } catch (Exception e) {
-
-            Assert.fail("WebElement is NOT visible, Exception: " + e.getMessage());
-            return false;
-        }
-    }
-
-    public boolean isElementClickable(WebElement element) {
-        try {
-            this.wait.until(ExpectedConditions.elementToBeClickable(element));
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
-
-    /**********************************************************************************
-     **PAGE METHODS
-     **********************************************************************************/
-    public BasePage loadUrl(String url)  {
-        driver.get(url);
-        return new BasePage();
-    }
-
-
-
-
 }
