@@ -50,7 +50,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5198139702,
+  "duration": 5608729452,
   "status": "passed"
 });
 formatter.background({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "LoginSteps.i_am_on_login_page()"
 });
 formatter.result({
-  "duration": 2300096320,
+  "duration": 1767506844,
   "status": "passed"
 });
 formatter.scenario({
@@ -108,18 +108,18 @@ formatter.match({
   "location": "LoginSteps.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 352646325,
+  "duration": 1752215935,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_successfully_login_and_make_a_search()"
 });
 formatter.result({
-  "duration": 91784543,
+  "duration": 153691246,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3146975717,
+  "duration": 3190337109,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -174,7 +174,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4261910437,
+  "duration": 4080603287,
   "status": "passed"
 });
 formatter.background({
@@ -193,7 +193,7 @@ formatter.match({
   "location": "LoginSteps.i_am_on_login_page()"
 });
 formatter.result({
-  "duration": 1321275270,
+  "duration": 1515299800,
   "status": "passed"
 });
 formatter.scenario({
@@ -232,22 +232,22 @@ formatter.match({
   "location": "LoginSteps.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1655357277,
+  "duration": 2137249628,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_get_login_warning_notification()"
 });
 formatter.result({
-  "duration": 56449609,
+  "duration": 59098989,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3128435843,
+  "duration": 3125985217,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4054400411,
+  "duration": 4388873270,
   "status": "passed"
 });
 formatter.background({
@@ -266,7 +266,7 @@ formatter.match({
   "location": "LoginSteps.i_am_on_login_page()"
 });
 formatter.result({
-  "duration": 1074295544,
+  "duration": 1036634996,
   "status": "passed"
 });
 formatter.scenario({
@@ -305,18 +305,18 @@ formatter.match({
   "location": "LoginSteps.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1714948178,
+  "duration": 1733131598,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_get_login_warning_notification()"
 });
 formatter.result({
-  "duration": 43267106,
+  "duration": 47222561,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3115118230,
+  "duration": 3121309412,
   "status": "passed"
 });
 });

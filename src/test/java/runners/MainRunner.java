@@ -25,7 +25,7 @@ import java.io.IOException;
         plugin = {"pretty", "html:output/cucumber-reports","com.cucumber.listener.ExtentCucumberFormatter:output/report.html"}
 )
 
-public class TestRunner {
+public class MainRunner {
 
     private TestNGCucumberRunner testNGCucumberRunner;
 

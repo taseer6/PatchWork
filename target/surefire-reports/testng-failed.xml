@@ -3,18 +3,7 @@
 <suite name="Failed suite [Suite1]" verbose="0">
   <test name="Regression1">
     <classes>
-      <class name="runners.TestRunner"/>
+      <class name="runners.MainRunner"/>
     </classes>
   </test> <!-- Regression1 -->
-  <test name="Regression1(failed)">
-    <classes>
-      <class name="runners.TestRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- runners.TestRunner -->
-    </classes>
-  </test> <!-- Regression1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
