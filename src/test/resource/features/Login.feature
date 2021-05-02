@@ -18,3 +18,4 @@ Feature: As an Authentic user I should be able to login and perform a search
       | invalid email          | invalid password |
       | wrongemail@hotmail.com | 12345            |
       | taseer66@hotmail.com   | wrongpassword    |
+      | taseer6624@hotmail.com   | wrongpassword    |

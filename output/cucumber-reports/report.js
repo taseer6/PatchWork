@@ -50,7 +50,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5608729452,
+  "duration": 5332921949,
   "status": "passed"
 });
 formatter.background({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "LoginSteps.i_am_on_login_page()"
 });
 formatter.result({
-  "duration": 1767506844,
+  "duration": 1583469742,
   "status": "passed"
 });
 formatter.scenario({
@@ -108,18 +108,18 @@ formatter.match({
   "location": "LoginSteps.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1752215935,
+  "duration": 1882556030,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_successfully_login_and_make_a_search()"
 });
 formatter.result({
-  "duration": 153691246,
+  "duration": 137209678,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3190337109,
+  "duration": 3125394833,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -169,12 +169,20 @@ formatter.examples({
       ],
       "line": 20,
       "id": "as-an-authentic-user-i-should-be-able-to-login-and-perform-a-search;invalid-user-should-get-warning-notification;;3"
+    },
+    {
+      "cells": [
+        "taseer6624@hotmail.com",
+        "wrongpassword"
+      ],
+      "line": 21,
+      "id": "as-an-authentic-user-i-should-be-able-to-login-and-perform-a-search;invalid-user-should-get-warning-notification;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4080603287,
+  "duration": 4453976031,
   "status": "passed"
 });
 formatter.background({
@@ -193,7 +201,7 @@ formatter.match({
   "location": "LoginSteps.i_am_on_login_page()"
 });
 formatter.result({
-  "duration": 1515299800,
+  "duration": 1430189520,
   "status": "passed"
 });
 formatter.scenario({
@@ -232,22 +240,22 @@ formatter.match({
   "location": "LoginSteps.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 2137249628,
+  "duration": 1654181072,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_get_login_warning_notification()"
 });
 formatter.result({
-  "duration": 59098989,
+  "duration": 50743999,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3125985217,
+  "duration": 3124844189,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4388873270,
+  "duration": 4696486884,
   "status": "passed"
 });
 formatter.background({
@@ -266,7 +274,7 @@ formatter.match({
   "location": "LoginSteps.i_am_on_login_page()"
 });
 formatter.result({
-  "duration": 1036634996,
+  "duration": 1009137037,
   "status": "passed"
 });
 formatter.scenario({
@@ -305,18 +313,91 @@ formatter.match({
   "location": "LoginSteps.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1733131598,
+  "duration": 1860534691,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_get_login_warning_notification()"
 });
 formatter.result({
-  "duration": 47222561,
+  "duration": 46697741,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3121309412,
+  "duration": 3126985653,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4463263293,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "I am on login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_am_on_login_page()"
+});
+formatter.result({
+  "duration": 1771071013,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "Invalid user should get warning notification",
+  "description": "",
+  "id": "as-an-authentic-user-i-should-be-able-to-login-and-perform-a-search;invalid-user-should-get-warning-notification;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 15,
+  "name": "I enter \"taseer6624@hotmail.com\" and \"wrongpassword\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 16,
+  "name": "I should get login warning notification",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "taseer6624@hotmail.com",
+      "offset": 9
+    },
+    {
+      "val": "wrongpassword",
+      "offset": 38
+    }
+  ],
+  "location": "LoginSteps.i_enter_and(String,String)"
+});
+formatter.result({
+  "duration": 2025248662,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.i_should_get_login_warning_notification()"
+});
+formatter.result({
+  "duration": 45258792,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 3128340103,
   "status": "passed"
 });
 });

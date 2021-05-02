@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>May 2, 2021 06:46:37 PM</span>
+                    <span class='label suite-start-time blue darken-3'>May 2, 2021 07:15:08 PM</span>
 				</a>
 			</li>
 			<li>
@@ -137,7 +137,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -152,7 +152,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>12</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -172,12 +172,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>As an Authentic user I should be able to login and perform a search</span>
-						<span class='test-time'>May 2, 2021 06:46:37 PM</span>
+						<span class='test-time'>May 2, 2021 07:15:09 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 9s+377ms</span>
+	<span class='duration right label'>0h 0m 9s+11ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Authentic user should successfully login</span>
@@ -207,7 +207,7 @@
 	</ul>
 </div>
 <div class='scenariooutline node' test-id='7' status='pass'>
-	<span class='duration right label'>0h 0m 18s+142ms</span>
+	<span class='duration right label'>0h 0m 29s+789ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Invalid user should get warning notification</span>
@@ -250,6 +250,27 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='15' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I should get login warning notification</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
+		</li>
+		<li test-id='16' class='node scenario pass' status='pass'>
+			
+			<b>Scenario</b>
+			
+			<span class="bdd-step-name">Invalid user should get warning notification</span>
+			
+				<ul class='steps'>
+					<li test-id='17' class='node given pass' status='pass'><b>Given</b>
+						<span class="bdd-step-name">Given I am on login page</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='18' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I enter "taseer6624@hotmail.com" and "wrongpassword"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='19' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then I should get login warning notification</span>
 							<div class='pre'>passed</div>
 					</li>
@@ -300,31 +321,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>9</div>
+					<div class='panel-lead'>12</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 2, 2021 06:46:37 PM</div>
+					<div class='panel-lead'>May 2, 2021 07:15:08 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 2, 2021 06:47:11 PM</div>
+			 		<div class='panel-lead'>May 2, 2021 07:15:54 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>33,943ms</div>
+					<div class='panel-lead'>45,172ms</div>
 				</div>
 			</div>
 		</div>
@@ -345,7 +366,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 3,
+				passChild: 4,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -354,7 +375,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 9,
+				passGrandChild: 12,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
