@@ -9,7 +9,7 @@ Project is developed on BDD approach and used page object model as design patter
 
 In page object model each web page has a Page Object. Selenium is used for interacting with the web related operations and to locate elements.
 
-Cucumber, TestNG will manage test suits. Maven is used for project management
+Cucumber uses Gherkin language for writing feature files, TestNG will manage test suits. Maven is used for project management
 
 ExtentReport is used for report.
 
