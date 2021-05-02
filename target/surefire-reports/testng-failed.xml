@@ -3,7 +3,7 @@
 <suite name="Failed suite [Suite1]" verbose="0">
   <test name="Regression1">
     <classes>
-      <class name="runners.MainRunner"/>
+      <class name="runners.TestRunner"/>
     </classes>
   </test> <!-- Regression1 -->
 </suite> <!-- Failed suite [Suite1] -->

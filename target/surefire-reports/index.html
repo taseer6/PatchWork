@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="runners.MainRunner" class="method navigator-link" hash-for-method="feature(As an Authentic user I should be able to login and perform a search)">feature(As an Authentic user I should be able to login and perform a search)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1" title="runners.TestRunner" class="method navigator-link" hash-for-method="feature(As an Authentic user I should be able to login and perform a search)">feature(As an Authentic user I should be able to login and perform a search)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -120,7 +120,7 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">runners.MainRunner</span>
+              <span class="class-name">runners.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -130,7 +130,7 @@
                   <span class="method-name">feature</span>
                   <span class="parameters">(As an Authentic user I should be able to login and perform a search)</span>
                   <em>
-(Runs Cucumber Feature)                  </em>
+(Runs cucmber Features)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +147,7 @@
 &lt;suite name=&quot;Suite1&quot; verbose=&quot;0&quot;&gt;
   &lt;test name=&quot;Regression1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;runners.MainRunner&quot;/&gt;
+      &lt;class name=&quot;runners.TestRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regression1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
@@ -198,13 +198,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
-data.setCell(0, 2, 'runners.MainRunner')
-data.setCell(0, 3, 33358);
+data.setCell(0, 2, 'runners.TestRunner')
+data.setCell(0, 3, 39453);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -230,22 +230,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">runners.MainRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature(As an Authentic user I should be able to login and perform a search)</span>
-                <span class="method-start">261 ms</span>
+                <span class="method-start">239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">33620 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <span class="method-name">writeReport</span>
-                <span class="method-start">33620 ms</span>
+                <span class="method-name">testDownClass</span>
+                <span class="method-start">39692 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
